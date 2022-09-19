@@ -1,2 +1,28 @@
-@import './common';
-@import './example';
+// normolize
+@import './base/common';
+// mixins
+@import './utils/mixins';
+// variebles
+@import './utils/variables';
+// visually hidden
+@import './utils/visually-hidden';
+// global styles
+@import './utils/global-styles';
+// header
+@import './components/header';
+// promo box
+@import './components/promo-box';
+// about
+@import './components/about';
+// servicess
+@import './components/servicess';
+// business
+@import './components/business';
+// blog
+@import './components/blog';
+// team
+@import './components/team';
+// request
+@import './components/request';
+// footer
+@import './components/footer';

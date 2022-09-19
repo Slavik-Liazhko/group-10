@@ -1,0 +1,126 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #333333;
+  background-color: #ffffff;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.header {
+  width: 100%;
+  height: 300px;
+  background-color: green;
+  font-size: 70px;
+}
+
+.header-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.promo-box {
+  width: 100%;
+  height: 300px;
+  background-color: #0284d0;
+  font-size: 70px;
+}
+
+.about {
+  width: 100%;
+  height: 300px;
+  background-color: red;
+  font-size: 70px;
+}
+
+.servicess {
+  width: 100%;
+  height: 300px;
+  background-color: yellow;
+  font-size: 70px;
+}
+
+.business {
+  width: 100%;
+  height: 300px;
+  background-color: orange;
+  font-size: 70px;
+}
+
+.blog {
+  width: 100%;
+  height: 300px;
+  background-color: pink;
+  font-size: 70px;
+}
+
+.team {
+  width: 100%;
+  height: 300px;
+  background-color: brown;
+  font-size: 70px;
+}
+
+.request {
+  width: 100%;
+  height: 300px;
+  background-color: burlywood;
+  font-size: 70px;
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: purple;
+  font-size: 70px;
+}/*# sourceMappingURL=index.css.map */
